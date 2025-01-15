@@ -1,0 +1,62 @@
+.profile {
+  display: inline-block;
+  position: relative;
+}
+
+.profile-image {
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.auth-buttons button {
+  margin-left: 10px;
+}
+
+
+
+.dropdown {
+  float: right; /* กำหนดให้ dropdown อยู่ทางขวา */
+  position: relative; /* ทำให้ dropdown-content สามารถจัดตำแหน่งได้ */
+}
+
+.dropdown .dropdown-content {
+  display: none;
+  position: absolute;
+  right: 0;
+  background: none;
+  z-index: 1;
+  width: 60px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block; 
+}
+
+.dropdown-content a {
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  color: black;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;  
+}
+
+
+.Profile img{
+width: 100%;
+border-radius: 50%;
+}
+.Profile {
+  width: 50px;
+  border-radius: 50%;
+  }
+
+
+  .Link {
+    font: 1em sans-serif;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #f8f5f5;
+    text-decoration: none;
+  }
